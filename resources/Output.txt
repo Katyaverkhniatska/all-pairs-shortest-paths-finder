@@ -1,0 +1,40 @@
+Input Graph
+Vertex 'A', Neighbours & Weights: 'B' 1
+Vertex 'B', Neighbours & Weights: 'C' 2
+Vertex 'D', Neighbours & Weights: 'E' 3
+Vertex 'C', Neighbours & Weights: None
+Vertex 'E', Neighbours & Weights: None
+
+Matrix of Weights (|Vertices|x|Vertices|)
+[ 0, 1, "Inf", 3, "Inf" ]
+[ "Inf", 0, "Inf", 2, "Inf" ]
+[ "Inf", "Inf", 0, "Inf", 3 ]
+[ "Inf", "Inf", "Inf", 0, "Inf" ]
+[ "Inf", "Inf", "Inf", "Inf", 0 ]
+
+Shortest paths for all vertices
+'A' to 'A': 'A'
+'A' to 'B': 'A' -> 'B'
+'A' to 'D': no path
+'A' to 'C': 'A' -> 'B' -> 'C'
+'A' to 'E': no path
+'B' to 'A': no path
+'B' to 'B': 'B'
+'B' to 'D': no path
+'B' to 'C': 'B' -> 'C'
+'B' to 'E': no path
+'D' to 'A': no path
+'D' to 'B': no path
+'D' to 'D': 'D'
+'D' to 'C': no path
+'D' to 'E': 'D' -> 'E'
+'C' to 'A': no path
+'C' to 'B': no path
+'C' to 'D': no path
+'C' to 'C': 'C'
+'C' to 'E': no path
+'E' to 'A': no path
+'E' to 'B': no path
+'E' to 'D': no path
+'E' to 'C': no path
+'E' to 'E': 'E'
