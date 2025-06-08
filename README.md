@@ -109,7 +109,7 @@ In all these cases the program will throw an **error**:
 -- negative cycle is detected
 -- the input has incorrect format
 -- incorrent fags or their number
--- the inout file does not exist
+-- the input file does not exist
 
 ## 📁 Input
 
